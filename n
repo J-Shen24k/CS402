@@ -1,0 +1,17 @@
+OS Name	Microsoft Windows 10 Education
+Version	10.0.17763 Build 17763
+Other OS Description 	Not Available
+OS Manufacturer	Microsoft Corporation
+System Name	SB112XH22
+System Manufacturer	Dell Inc.
+System Model	OptiPlex 7060
+System Type	x64-based PC
+System SKU	085A
+Processor	Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz, 3192 Mhz, 6 Core(s), 12 Logical Processor(s)
+BIOS Version/Date	Dell Inc. 1.2.22, 11/1/2018
+SMBIOS Version	3.1
+Embedded Controller Version	255.255
+BIOS Mode	UEFI
+BaseBoard Manufacturer	Dell Inc.
+BaseBoard Product	0NC2VH
+BaseBoard Version	A01
