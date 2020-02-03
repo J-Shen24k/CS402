@@ -1,0 +1,40 @@
+import time
+import numpy as np
+Q = 0
+P = 0
+M = np.random.randint(3, size=(100, 200))
+N = np.random.randint(3, size=(200, 100))
+np.random.seed(100)
+def matrix_multiplication(M, N):
+
+    R = np.zeros((100,100))
+
+    for i in range(0, 100):
+        for j in range(0, 100):
+            for k in range(0, 200):
+                R[i][j] += M[i][k] * N[k][j]
+
+for i in range(0,10):
+    start1 = time.time()
+    matrix_multiplication(M, N)
+    end1 = time.time()
+    P += end1 - start1
+print(P/10)
+
+
+
+def matrix_multiplication(Y, Z):
+    Q = np.zeros((100,100))
+    for i in range(0, 100):
+        for j in range(0, 100):
+            for k in range(0, 120):
+                Q[i][j] += Y[i][k] * Z[k][j]
+
+for i in range(10):
+    Y = np.random.rand(100, 120)
+    Z = np.random.rand(120, 100)
+    start = time.time()
+    matrix_multiplication(Y, Z)
+    end = time.time()
+    Q += end - start
+print(Q/10)
